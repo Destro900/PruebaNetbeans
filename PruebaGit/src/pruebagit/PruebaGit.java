@@ -8,15 +8,15 @@ public class PruebaGit {
         nota = sc.nextInt();
         switch (nota) {
             case 0, 1, 2, 3, 4 ->
-                System.out.println("Insuficiente");
+                System.out.println("Insuficiente, has supendido");
             case 5 ->
-                System.out.println("Suficiente");
+                System.out.println("Suficiente, has aprobado de milagro");
             case 6 ->
-                System.out.println("Bien");
+                System.out.println("Bien, has aprobado");
             case 7, 8 ->
-                System.out.println("Notable");
+                System.out.println("Notable, has aprobado con buena nota");
             case 9, 10 ->
-                System.out.println("Sobresaliente");
+                System.out.println("Sobresaliente, sigue así");
             default ->
                 System.out.println("Error: nota no valida");
         }
