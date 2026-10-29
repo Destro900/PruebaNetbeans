@@ -18,7 +18,7 @@ public class PruebaGit {
             case 9, 10 ->
                 System.out.println("Sobresaliente, sigue así");
             default ->
-                System.out.println("Error: nota no valida");
+                System.out.println("Nota incorrecta");
         }
     }
 }
